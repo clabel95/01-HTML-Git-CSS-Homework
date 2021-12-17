@@ -86,7 +86,7 @@ body {
     background-color: #2589bd;
 }
 
-
+/* consolidated the three benefits classes into a single benefit class */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -103,7 +103,9 @@ body {
     max-width: 150px;
 }
 
-.img_class {
+/* consolidated three classes into a single class "Main_para_class
+this class represents the paragraphs  */
+.Main_para_class {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,11 +114,11 @@ body {
     color: #ffffff;
 }
 
-.img_class img {
+.Main_para_class img {
     max-height: 200px;
 }
 
-.img_class h2 {
+.Main_para_class h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
